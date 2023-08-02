@@ -1,0 +1,29 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.cdnfonts.com/css/metrodf');
+
+:root {
+    --satoshi: 'Satoshi', sans-serif;
+    --metro: 'MetroDF', sans-serif;
+    --black: #22202E;
+    --gray: #726E8D;
+    --lightGray: #5B569
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--satoshi);
+    font-size: 16px;
+    color: var(--black);
+    //font-family: 'MetroDF', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+.img {
+    max-width: 100%;
+}
