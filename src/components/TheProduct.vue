@@ -1,11 +1,11 @@
 <template>
   <div class="product">
-    <a href="" class="product-image">
+    <router-link to="/" class="product-image">
       <img :src="img" :alt="name">
-    </a>
-    <a href="" class="product-name">
+    </router-link>
+    <router-link to="/" class="product-name">
       {{ name }}
-    </a>
+    </router-link>
     <span class="product-price">£{{ price }}</span>
   </div>
 </template>

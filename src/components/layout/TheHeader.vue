@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="header-menu">
-      <router-link :href="element.path"
+      <router-link :to="element.path"
          v-for="(element, i) of menu"
          :key="i"
          class="header-menu__link"

@@ -8,7 +8,7 @@
           :name="product.name"
           :price="product.price"/>
     </div>
-    <a class="products-link" href="">View collection</a>
+    <router-link class="products-link" to="/">View collection</router-link>
   </div>
 </template>
 
